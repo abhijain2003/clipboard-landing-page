@@ -1,0 +1,254 @@
+*  {
+    padding: 0;
+    margin: 0%;
+}
+
+body  {
+    font-family: 'Bai Jamjuree', sans-serif;
+    min-height: 100vh;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6  {
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+
+p  {
+    color: hsl(201, 11%, 66%);
+    font-weight: 400;
+}
+
+img  {
+    max-width: 100%;
+}
+
+/* title-section */
+
+#title  {
+    text-align: center;
+    padding: 7%  15%;
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.brand-box  {
+    max-width: 550px;
+    margin: 0  auto;
+}
+
+.download-for-ios  {
+    color: #fff;
+    background-color: hsl(171, 66%, 44%);
+    padding: 10px  20px;
+    border: none;
+    border-radius: 16px;
+}
+
+.download-for-mac  {
+    color: #fff;
+    background-color: hsl(233, 100%, 69%);
+    padding: 10px  20px;
+    border: none;
+    border-radius: 16px;
+}
+
+.title-head , .title-para , .track-para {
+    white-space: normal;
+}
+
+.track-box  {
+    margin: 100px  auto  0;
+    max-width: 620px;
+}
+
+/* computer-section */
+
+#computer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.computer-img  {
+    transform: translateX(-70px)
+}
+
+.menu-list  {
+    width: 300px;
+    justify-content: space-evenly;
+    margin: auto  250px  auto  0;
+}
+
+/* tablet-section */
+
+#tablet  {
+    text-align: center;
+    margin: 100px  auto;
+    justify-content: space-between;
+}
+
+.tab-para  {
+    max-width: 550px;
+    margin: 0  auto  50px;
+}
+
+/* features-section */
+
+#features  {
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 25px  0  50px;
+}
+
+.box2  {
+    display: flex;
+    margin: 50px  auto;
+    justify-content: space-evenly;
+}
+
+.type  {
+    max-width: 353px;
+}
+
+.box3  {
+    margin: 50px  auto;
+}
+
+.company-img  {
+    margin: 20px  20px  50px;
+    width: 15%;
+}
+
+.box-para  {
+    max-width: 550px;
+    text-align: center;
+    margin: 0  auto  20px;
+}
+
+.box-head  {
+    white-space: normal;
+}
+
+/* contact-section */
+
+#contact  {
+    background-color: #f5f6f8;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px  100px  30px  20px;
+}
+
+.info  {
+    display: flex;
+    width: 600px;
+    justify-content: space-evenly;
+}
+
+.socials  {
+   align-self: center;
+}
+
+.footer-logo  {
+    width: 50%;
+}
+
+.icon  {
+    margin-right: 10px;
+}
+
+#contact p  {
+    color: hsl(210, 10%, 33%);
+}
+
+#contact p:hover  {
+    color: hsl(201, 11%, 66%);
+}
+
+@media screen and (max-width: 958px)  {
+    body  {
+        height: 4000px;
+    }
+
+    #title  {
+        background-image: url(images/bg-header-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        margin: 0  auto;
+    }
+
+    .title-head , .title-para  {
+        white-space: pre;
+    }
+
+    .download-for-mac , .download-for-ios  {
+        margin-top: 15px;
+        width: 270px;
+    }
+
+    .track-para  {
+        white-space: pre;
+    }
+
+    #computer  {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0  auto;
+    }
+
+    .computer-img  {
+        transform: translateX(0);
+    }
+
+    .menu-list  {
+        margin: 25px  0  50px  0;
+        text-align: center;
+        align-self: center;
+        justify-content: space-evenly;
+    }
+
+    .tab-para  {
+        white-space: pre;
+    }
+
+    .box2  {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box-head , .box-para  {
+        white-space: pre;
+    }
+
+    .box3  {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .company-img  {
+        width: 40%;
+        margin: 30px  auto;
+    }
+
+    #contact  {
+        flex-direction: column;
+    }
+
+    .info  {
+        flex-direction: column;
+        width: 380px;
+        text-align: center;
+        height: 250px;
+        justify-content: space-evenly;
+    }
+
+    .footer-logo  {
+        width: 15%;
+        margin: 0  auto;
+    }
+    
+    .icon  {
+        margin-left: 50px;
+        margin-right: 0;
+    }
+}
